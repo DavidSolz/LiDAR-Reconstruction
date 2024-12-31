@@ -1,3 +1,6 @@
 [submodule "extern/SFML"]
 	path = extern/SFML
 	url = https://github.com/SFML/SFML.git
+[submodule "extern/LRE"]
+	path = extern/LRE
+	url = https://github.com/DavidSolz/LiDAR-Reconstruction-Library

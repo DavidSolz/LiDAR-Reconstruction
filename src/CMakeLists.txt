@@ -18,8 +18,8 @@ find_package(glfw3 3.3 REQUIRED)
 add_executable(${PROJECT_NAME}  main.cpp)
 target_link_libraries(${PROJECT_NAME} 
     PRIVATE 
-        lre
-        sfml-graphics
-        sfml-window
-        sfml-system
+        LRE::linalg
+        SFML::Graphics
+        SFML::Window
+        SFML::System
 )
